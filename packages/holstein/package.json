@@ -1,6 +1,6 @@
 {
   "name": "@pasture/holstein",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A holstein class",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
@@ -14,8 +14,6 @@
     "pub": "npm publish",
     "test": "node -r @babel/register test/test.index.js",
     "test-jest": "jest"
-  },
-  "dependencies": {
   },
   "repository": {
     "type": "git",
