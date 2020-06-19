@@ -19,6 +19,10 @@
     "type": "git",
     "url": "git+https://github.com/hoyeungw/pasture/holstein.git"
   },
+  "dependencies": {
+    "@pasture/enum-being-status": "^0.0.1",
+    "@pasture/enum-genders": "^0.0.1"
+  },
   "keywords": [
     "pasture",
     "cluster"
