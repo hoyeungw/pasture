@@ -15,6 +15,9 @@
     "test": "node -r @babel/register test/test.index.js",
     "test-jest": "jest"
   },
+  "dependencies": {
+    "@vect/object-mapper": "^0.2.5"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hoyeungw/pasture/enum-being-status.git"

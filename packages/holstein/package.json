@@ -15,14 +15,14 @@
     "test": "node -r @babel/register test/test.index.js",
     "test-jest": "jest"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/hoyeungw/pasture/holstein.git"
-  },
   "dependencies": {
     "@pasture/enum-being-status": "^0.0.4",
     "@pasture/enum-genders": "^0.0.4",
     "@typen/nullish": "^0.1.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hoyeungw/pasture/holstein.git"
   },
   "keywords": [
     "pasture",

@@ -2,11 +2,12 @@ import { CARRYING, DELIVERABLE, OVERAGE, UNDERAGE, VACANT } from '@pasture/enum-
 import { nullish }                                          from '@typen/nullish'
 import { ADULT_AGE, Holstein, LIFE_EXPECTANCY, PREGNANCY }  from './Holstein'
 import { HolsteinHomme }                                    from './HolsteinHomme'
+import { FEMALE }                                           from '@pasture/enum-genders'
 
 
 export class HolsteinFemme extends Holstein {
-  constructor(gender, age) {
-    super(gender, age)
+  constructor(age) {
+    super(FEMALE, age)
     this.record = 0
     this.pregnant = undefined
   }
