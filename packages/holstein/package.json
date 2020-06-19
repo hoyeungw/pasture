@@ -20,6 +20,7 @@
     "url": "git+https://github.com/hoyeungw/pasture/holstein.git"
   },
   "dependencies": {
+    "@typen/nullish": "^0.1.5",
     "@pasture/enum-being-status": "^0.0.1",
     "@pasture/enum-genders": "^0.0.1"
   },
