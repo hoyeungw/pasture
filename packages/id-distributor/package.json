@@ -1,7 +1,7 @@
 {
-  "name": "@pasture/enum-genders",
+  "name": "@pasture/id-distributor",
   "version": "0.0.3",
-  "description": "Enum of FEMALE and MALE",
+  "description": "A id-distributor class",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
   "files": [
@@ -17,7 +17,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hoyeungw/pasture/enum-genders.git"
+    "url": "git+https://github.com/hoyeungw/pasture/id-distributor.git"
+  },
+  "dependencies": {
+    "@aryth/math": "^0.2.7",
+    "@pasture/enum-being-status": "^0.0.3",
+    "@pasture/enum-genders": "^0.0.3",
+    "@typen/nullish": "^0.1.5"
   },
   "keywords": [
     "pasture",
@@ -30,7 +36,7 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/hoyeungw/pasture/enum-genders"
+    "url": "https://github.com/hoyeungw/pasture/id-distributor"
   },
-  "homepage": "https://github.com/hoyeungw/pasture/enum-genders#readme"
+  "homepage": "https://github.com/hoyeungw/pasture/id-distributor#readme"
 }
