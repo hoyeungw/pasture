@@ -1,0 +1,38 @@
+{
+  "name": "@pasture/holstein",
+  "version": "0.0.0",
+  "description": "A holstein class",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "pub": "npm publish",
+    "test": "node -r @babel/register test/test.index.js",
+    "test-jest": "jest"
+  },
+  "dependencies": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hoyeungw/pasture/holstein.git"
+  },
+  "keywords": [
+    "pasture",
+    "cluster"
+  ],
+  "author": {
+    "name": "Hoyeung Wong",
+    "email": "hoyeungw@outlook.com",
+    "url": "https://github.com/hoyeungw"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hoyeungw/pasture/holstein"
+  },
+  "homepage": "https://github.com/hoyeungw/pasture/holstein#readme"
+}
