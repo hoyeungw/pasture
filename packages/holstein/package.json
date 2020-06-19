@@ -1,6 +1,6 @@
 {
   "name": "@pasture/holstein",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "A holstein class",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
@@ -16,8 +16,8 @@
     "test-jest": "jest"
   },
   "dependencies": {
-    "@pasture/enum-being-status": "^0.0.4",
-    "@pasture/enum-genders": "^0.0.4",
+    "@pasture/enum-being-status": "^0.0.5",
+    "@pasture/enum-genders": "^0.0.5",
     "@typen/nullish": "^0.1.5"
   },
   "repository": {
