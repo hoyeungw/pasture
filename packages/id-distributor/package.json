@@ -1,6 +1,6 @@
 {
   "name": "@pasture/id-distributor",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A id-distributor class",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
@@ -21,8 +21,8 @@
   },
   "dependencies": {
     "@aryth/math": "^0.2.7",
-    "@pasture/enum-being-status": "^0.0.3",
-    "@pasture/enum-genders": "^0.0.3",
+    "@pasture/enum-being-status": "^0.0.4",
+    "@pasture/enum-genders": "^0.0.4",
     "@typen/nullish": "^0.1.5"
   },
   "keywords": [

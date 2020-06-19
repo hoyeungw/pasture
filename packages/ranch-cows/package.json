@@ -1,6 +1,6 @@
 {
   "name": "@pasture/ranch-cows",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A ranch-cows class",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
@@ -16,8 +16,8 @@
     "test-jest": "jest"
   },
   "dependencies": {
-    "@vect/vector-init": "^0.2.5",
-    "@vect/object-init": "^0.2.5"
+    "@vect/object-init": "^0.2.5",
+    "@vect/vector-init": "^0.2.5"
   },
   "repository": {
     "type": "git",
