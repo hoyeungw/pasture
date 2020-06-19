@@ -25,7 +25,14 @@ export default [
       commonjs({
         include: /node_modules/,
       }),
-      babel({ babelHelpers: 'bundled', babelrc: false, exclude: 'node_modules/**' }),
+      babel({
+        babelHelpers: 'bundled',
+        babelrc: false,
+        exclude: 'node_modules/**',
+        plugins: [
+          ['@babel/plugin-proposal-class-properties'],
+        ]
+      }),
       json(),
       fileInfo()
     ]

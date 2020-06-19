@@ -1,0 +1,40 @@
+{
+  "name": "@pasture/ranch-cows",
+  "version": "0.0.3",
+  "description": "A ranch-cows class",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "pub": "npm publish",
+    "test": "node -r @babel/register test/test.index.js",
+    "test-jest": "jest"
+  },
+  "dependencies": {
+    "@vect/vector-init": "^0.2.5",
+    "@vect/object-init": "^0.2.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hoyeungw/pasture/ranch-cows.git"
+  },
+  "keywords": [
+    "pasture",
+    "cluster"
+  ],
+  "author": {
+    "name": "Hoyeung Wong",
+    "email": "hoyeungw@outlook.com",
+    "url": "https://github.com/hoyeungw"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hoyeungw/pasture/ranch-cows"
+  },
+  "homepage": "https://github.com/hoyeungw/pasture/ranch-cows#readme"
+}
